@@ -1,5 +1,5 @@
 export function checkIfNumber(value) {
-    if (value === undefined || typeof value != 'number') {
+    if (!value || typeof value != 'number') {
         throw 'Input must be a number';
     } 
 

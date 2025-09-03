@@ -2,7 +2,7 @@ import { SUPPORTED_DENOMINATIONS } from "@/constants/denominations";
 import { getDividingTimes } from './helpers';
 
 export function getDenominationQuantities(value) {
-    let result = [];
+    var result = [];
     SUPPORTED_DENOMINATIONS.forEach(currentDenomination => {
         var quantity = getDividingTimes(value,currentDenomination);
         if (quantity > 0) {

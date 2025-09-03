@@ -74,8 +74,8 @@ export default {
           if (isFirstTimeCalculation) {
             response = await getDenominationCalculation(this.submittedValue);
           } else {
-            this.oldSubmittedValue = this.newSubmittedValue;
             response = await getDenominationCalculationAndDifference(this.submittedValue, this.newTableResults);
+            this.oldSubmittedValue = this.newSubmittedValue;
             this.differenceTableResults = response.data.denominationDifferenceList;
           }
         }  catch (err) {
