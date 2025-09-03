@@ -4,6 +4,10 @@
 
 This project allows the calculation of denominations required to reach given amount.
 
+This project was created as part of a job interview task. 
+As I had no knowledge of Vue.js prior to this task, it was designed to test my ability to learn a new language.
+No AI was used for this task.
+
 ## Usage
 
 First, choose how you wish the calculation to be performed, either by frontend or backend. <br>
